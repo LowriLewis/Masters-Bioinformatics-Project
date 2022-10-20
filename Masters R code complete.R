@@ -28,10 +28,10 @@ library(Matrix)
 
 
 #CODE
-setwd("C:/Users/lal2n21/OneDrive - University of Southampton/Documents/RPC_Data/Ramos_Breast/ SCTonRamos")
+setwd("........")
 
-###Reading in the Ramos et. al Data Set
-ramosData <- read.delim("GSE192935_Raw_Counts_Human_SC_RNAseq_Fig1_and_2.csv.gz", sep =";", header = T)
+###Reading in the Ramos Data Set
+ramosData <- read.delim("...", sep =";", header = T)
 
 ###Renaming Column X to "Gene_Name"
 ramosData <- rename(ramosData, Gene_Name=X)
